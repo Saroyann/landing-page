@@ -135,8 +135,8 @@ table {
 }
 
 @font-face {
-    font-family: roboto;
-    src: url(/font/roboto-medium-webfont.woff);
+    font-family: lato;
+    src: url(/font/lato-semibold-webfont.woff2);
 }
 #header-img {
     background-image: url('/media/male-musician-plays-musical-keys-headphones.jpg');
@@ -185,9 +185,9 @@ ul li .nav-link:hover {
     color: white;
     font-family: lato;
     margin-top: 251px;
-    margin-bottom: 343px;
+    margin-bottom: 353px;
     margin-left: 150px;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #border {
@@ -195,6 +195,5 @@ ul li .nav-link:hover {
 }
 
 span {
-    color: #FF0032;
-    font-weight: bold;
+    color: #FB2576;
 }
