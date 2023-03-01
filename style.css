@@ -47,3 +47,13 @@ table {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
