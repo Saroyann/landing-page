@@ -145,7 +145,7 @@ table {
 }
 
 nav {
-    background-color: rgba(3, 3, 3,.5);
+    /* background-color: rgba(3, 3, 3,.5); */
 }
 
 
@@ -161,7 +161,14 @@ ul li .nav-link {
     font-size: 20px;
     font-family: roboto;
     position: fixed 0px 0px 0px 0px;
+    padding: 6px;
 
+}
+
+ul li .nav-link:hover {
+    background-color: #EB455F;
+    color: black;
+    transition: ease 1s;
 }
 
 #right {
@@ -181,4 +188,13 @@ ul li .nav-link {
     margin-bottom: 343px;
     margin-left: 150px;
     font-size: 40px;
+}
+
+#border {
+    border: 3px solid #EB455F;
+}
+
+span {
+    color: #FF0032;
+    font-weight: bold;
 }
