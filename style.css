@@ -48,12 +48,17 @@ table {
     background-size: cover;
 }
 
+ul {
+    background-color: black;
+}
+
 ul li {
     list-style-type: none;
+    display: inline-block;
+    margin: 20px;
 }
 
 ul li a {
     text-decoration: none;
     color: white;
-    display: flex;
 }
