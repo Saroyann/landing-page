@@ -134,6 +134,10 @@ table {
     src: url(/font/roboto-medium-webfont.woff);
 }
 
+@font-face {
+    font-family: roboto;
+    src: url(/font/roboto-medium-webfont.woff);
+}
 #header-img {
     background-image: url('/media/male-musician-plays-musical-keys-headphones.jpg');
     background-repeat: no-repeat;
@@ -148,7 +152,7 @@ nav {
 ul li {
     list-style-type: none;
     display: inline-block;
-    margin: 20px 20px 2px 20px;
+    margin: 20px 15px 2px 20px;
 }
 
 ul li .nav-link {
@@ -168,4 +172,13 @@ ul li .nav-link {
     width: 150px;
     margin: 20px 0px 15px 20px;
     position: fixed 0px 0px 0px 0px;
+}
+
+#moto {
+    color: white;
+    font-family: lato;
+    margin-top: 251px;
+    margin-bottom: 343px;
+    margin-left: 150px;
+    font-size: 40px;
 }
