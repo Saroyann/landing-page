@@ -129,17 +129,17 @@ table {
     border-spacing: 0;
 }
 
+body {
+    background-color: #111;
+}
+
 @font-face {
     font-family: roboto;
     src: url(/font/roboto-medium-webfont.woff);
 }
 
-@font-face {
-    font-family: lato;
-    src: url(/font/lato-semibold-webfont.woff2);
-}
-
-#header-img {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+.header-img {
     background-image: url('/media/male-musician-plays-musical-keys-headphones.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -212,9 +212,10 @@ span {
 }
 
 .title1 {
-    font-family: roboto, sans-serif;
+    font-family: sans-serif;
     font-size: 35px;
     margin: 785px 0px 5px 45px;
+    font-weight: bold;
 }
 
 video {
@@ -225,6 +226,54 @@ video {
 
 p {
     font-size: 20px;
-    width: 90%;
-    font-family: lato, sans-serif;
+    width: 95%;
+    font-family: Open Sans,sans-serif; 
+    margin-top: 24px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+h1,p {
+    color: white;
+}
+
+.title {
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 30px 20px 10px 1145px;
+}
+
+#logo1 {
+    width: 200px;
+}
+
+#image {
+    width: 450px;
+    float: right;
+    margin-right: 45px;
+    padding-left: 20px;
+}
+
+.why-musichools {
+    text-align: end;
+    width: 95%;
+}
+
+.list {
+    color: white;
+    font-size: 20px;
+    text-align: end;
 }
