@@ -137,6 +137,10 @@ body {
     background-color: #111;
 }
 
+.nav-bar {
+    background-color: rgba(3, 3, 3,.5);
+}
+
 @font-face {
     font-family: roboto;
     src: url(/font/roboto-medium-webfont.woff);
