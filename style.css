@@ -306,5 +306,24 @@ input {
 }
 
 form {
-    margin-left: 500px;
+ padding-left: 150px;
+ padding-right: 150px;
+}
+
+.login {
+    text-decoration: none;
+    color: white;
+    margin-left: 320px;
+}
+
+button {
+    background-color: lightgreen;
+}
+
+.container {
+    border: 2px solid white;
+    margin-top: 20px;
+    width: max-content;
+    margin-left: 440px;
+    margin-bottom: 40px;
 }
