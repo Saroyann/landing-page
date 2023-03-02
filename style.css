@@ -226,7 +226,7 @@ video {
 
 p {
     font-size: 20px;
-    font-family: Open Sans,sans-serif; 
+    font-family: "Open Sans",sans-serif; 
     margin-top: 24px;
 }
 
@@ -249,10 +249,10 @@ h1,p {
 }
 
 .title {
-    font-family: sans-serif;
+    font-family: "open sans",sans-serif;
     font-size: 35px;
     font-weight: bold;
-    margin: 30px 20px 10px 1145px;
+    margin: 30px 20px 25px 1145px;
 }
 
 #logo1 {
@@ -275,4 +275,30 @@ h1,p {
     color: white;
     font-size: 20px;
     text-align: end;
+}
+
+.title2 {
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    font-family: "open sans",sans-serif;
+    margin-bottom: 20px;
+}
+
+form {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 400px;
+    margin-left: 15px;
 }
